@@ -96,9 +96,9 @@ section label{
 /*作品*/
 #content2{
 	width: 100%;
-	padding-bottom: 150px;
+	padding-bottom: 170px;
 	background-image: url(../img/bg-tile.png);
-	top: 80px;
+	top:80px;
 	}
 #content2 label{
 	background: url(../img/name2.png) ;
