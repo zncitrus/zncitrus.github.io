@@ -1,0 +1,46 @@
+/*背景*/
+.img_bg{position:fixed;top:0;left:0;width:100%;height:100%;z-index:-100;margin:0;/*background-size:cover;background-image:url(../img/bg.jpg);background-repeat: no-repeat;background-position: top center;background-size: 100% 100%;*/}
+.img_bg img{width:100%;height:100%}
+/*头部*/
+header{position:fixed;width: 85%; height: calc(100%-20px);left:10%;top:20px}
+header .top{width:100%; height:86px }
+header .top .logo,header .top .logo img{ width:194px; height: 103px;}
+header .top .nav{ width: 400px; height: 30px; margin-top: 28px;}
+header .top .nav ul li{width:90px; height:30px; margin-right: 10px; font-size: 17px; color:#e8e8e8; float: left; text-align: center; line-height: 30px;}
+header .top .nav ul li a{ display:inline-block;width:90px; height:30px;color: #e8e8e8; }
+header .top .nav ul li a:hover{display:inline-block; width:90px; height:30px;font-size: 24px;color:#fff;_color:#4b4b4b; _background:#e8e8e8;transition: 0.5s;}
+/*.brain{position: absolute;width:800px;height:500px; background-image: url(../img/Mac-Sliding-Portfolio.png);background-repeat: no-repeat;background-size: 100% 100%;top:20%;left:20%;}
+*/
+.all{width: 85%;height:500px; background-color: #fff;margin: 0 auto;}
+
+
+input, section {
+  clear: both;
+  padding-top: 10px;
+  display: none;
+}
+label {
+  font-weight: bold;
+  font-size: 14px;
+  display: block;
+  float: left;
+  padding: 10px 30px;
+  border-top: 2px solid transparent;
+  border-right: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-bottom: 1px solid #DDD;
+}
+label:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+#tab1:checked ~ #content1, #tab2:checked ~ #content2, #tab3:checked ~ #content3, #tab4:checked ~ #content4 {
+  display: block;
+}
+input:checked + label {
+  border-top-color: #FFB03D;
+  border-right-color: #DDD;
+  border-left-color: #DDD;
+  border-bottom-color: transparent;
+  text-decoration: none;
+}

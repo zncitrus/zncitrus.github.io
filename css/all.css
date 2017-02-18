@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+html,body{padding:0; margin:0;font-size: 100% }
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin: 0; padding: 0 }
+body, button, input, select, textarea { font: 12px/1.5 "Microsoft YaHei", 微软雅黑\9ed1\4f53,\5b8b\4f53, "Microsoft JhengHei", 华文细黑, STHeiti, MingLiu; color:#666 }
+h1, h2, h3, h4, h5, h6 { font-size: 100% }
+address, cite, dfn, em, var { font-style: normal }
+ul, ol, dl { list-style: none }
+a { color:#000; text-decoration: none !important; outline: none ;font-family:"Microsoft YaHei", 微软雅黑,\9ed1\4f53,\5b8b\4f53, "Microsoft JhengHei", 华文细黑, STHeiti, MingLiu;cursor: pointer;}
+img { border: 0 ;max-width:100%}
+a:link,a:hover{ color:#000}
+.left{ display:inline; float:left;}
+.right{ display:inline; float:right;}
+.clear:after{ clear:both;content:''; display:block;}
+.clear{zoom:1;}
+@media (min-width: 640px){
+	body{ font-size: 1rem;}
+}
+@media (min-width: 960px){
+	body{ font-size: 1.2rem;}
+}
+@media (min-width: 1100px){
+	body{ font-size: 1.5rem;}
+}
