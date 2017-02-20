@@ -76,10 +76,8 @@ section label{
 	background: url(../img/name.png) ;
     -webkit-background-size: 100% 100%;
     background-size: 100% 100%;
-   /* margin-left: 44%;
-    margin-top: 7%;*/
-    position: fixed;
-    bottom:50px;
+   	position: fixed;
+    bottom:30px;
     left: 45%;
 }
 /*关于*/
@@ -123,12 +121,7 @@ section label{
 }
 #content2 .works_bj:nth-child(1){margin-left: 20px;}
 #content2 .works_bj:nth-child(3){margin-right: 20px;}
-/*#content2 .works_bj .work{
-	width: 266px;
-	height: 148px;
-	margin-left: 11px;
-	margin-top: 11px;
-}*/
+
 #content2 .works_bj img {
 	width: 266px;
 	height: 148px;
